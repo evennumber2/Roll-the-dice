@@ -6,6 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    flex-direction: column; 
 }
 
 .container {
@@ -76,4 +77,21 @@ button:hover {
 #message {
     color: #666;
     font-size: 1.1rem;
+}
+
+.creator-footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.creator-footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.creator-footer a:hover {
+    text-decoration: underline;
 }
